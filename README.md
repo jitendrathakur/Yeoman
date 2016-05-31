@@ -1,6 +1,5 @@
 Yeoman + Bower + Angular + Scafold + Grunt + Karma + Jashmin + Istanbul + PhantomJS
 
-
   cd setup/ 
   968  node --version && npm --version 
   969  npm update 
