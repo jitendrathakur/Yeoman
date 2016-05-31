@@ -1,18 +1,18 @@
 
-Setup instructions: 
-
+<b>Setup instructions: </b>
+<code>
 npm install
 
 bower install
 
 grunt serve
-
+</code>
 Enjoy....
 
-If you want to setup this project from scratch then do following instructions :
+<b>If you want to setup this project from scratch then do following instructions :
 
-Yeoman + Bower + Angular + Scafold + Grunt + Karma + Jashmin + Istanbul + PhantomJS
-
+Yeoman + Bower + Angular + Scafold + Grunt + Karma + Jashmin + Istanbul + PhantomJS</b>
+<code>
   node --version && npm --version 
   
   npm update 
@@ -120,7 +120,7 @@ Yeoman + Bower + Angular + Scafold + Grunt + Karma + Jashmin + Istanbul + Phanto
    sudo bower install --save angular-local-storage --allow-root 
    
    grunt serve
-
+</code>
 
 Package.json should have :
 
