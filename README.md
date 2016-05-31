@@ -1,8 +1,12 @@
 
 Setup instructions: 
+
 npm install
+
 bower install
+
 grunt serve
+
 Enjoy....
 
 If you want to setup this project from scratch then do following instructions :
