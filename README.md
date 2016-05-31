@@ -1,60 +1,121 @@
+
+Setup instructions: 
+npm install
+bower install
+grunt serve
+Enjoy....
+
+If you want to setup this project from scratch then do following instructions :
+
 Yeoman + Bower + Angular + Scafold + Grunt + Karma + Jashmin + Istanbul + PhantomJS
 
-  cd setup/ 
-  968  node --version && npm --version 
-  969  npm update 
-  970  node --version && npm --version 
-  971  npm install --global npm@latest 
-  972  sudo chmod 777 -R /home/your-pc/tmp/ 
-  973  sudo npm install --global npm@latest 
-  974  git --version 
-  975  npm install --global yo bower grunt-cli 
-  976  sudo npm install --global yo bower grunt-cli 
-  977  yo --version && bower --version && grunt --version 
-  978  npm install --global generator-angular@0.11.1 generator-karma 
-  979  sudo npm install --global generator-angular@0.11.1 generator-karma 
-  980  mkdir mytodo && cd mytodo 
-  981  yo 
-  982  grunt serve 
-  983  cd .. 
-  984  grunt serve 
-  985  cd mytodo/ 
-  986  grunt serve 
-  987  grunt serve --force 
-  988  bower install 
-  989  grunt serve --force 
-  990  sudo bower install 
-  991  bower install --allow-root   
-  993  sudo bower install --allow-root   
- 1000  karma 
- 1001  npm install --global karma --save-dev 
- 1002  sudo npm install --global karma --save-dev 
- 1007  npm install karma --save-dev 
- 1008  karma 
- 1009  grunt test --force 
- 1010  grunt test 
- 1011  karma 
- 1012  karma start 
- 1013  grunt test 
- 1014  cd test/ 
- 1015  grunt test 
- 1016  karma start karma.conf.js 
- 1017  npm install karma-phantomjs-launcher --save-dev 
- 1018  karma start karma.conf.js 
- 1019  npm install karma-jasmine --save-dev 
- 1020  karma start karma.conf.js 
- 1021  cd .. 
- 1022  grunt 
- 1023  karma start 
- 1024  karma start test/karma.conf.js 
- 1025  npm install karma-phantomjs-launcher --save-dev 
- 1026  npm install karma-jasmine --save-dev 
- 1027  grunt 
- 1028  grunt serve:dist 
- 1029  grunt serve:dist --force 
- 1030  bower install --save angular-local-storage 
- 1031  sudo bower install --save angular-local-storage --allow-root 
- 1032  grunt serve
+  node --version && npm --version 
+  
+  npm update 
+  
+  node --version && npm --version 
+  
+  npm install --global npm@latest 
+  
+  sudo chmod 777 -R /home/your-pc/tmp/ 
+  
+  sudo npm install --global npm@latest 
+  
+  git --version 
+  
+  npm install --global yo bower grunt-cli 
+  
+  sudo npm install --global yo bower grunt-cli 
+  
+  yo --version && bower --version && grunt --version 
+  
+  npm install --global generator-angular@0.11.1 generator-karma 
+  
+  sudo npm install --global generator-angular@0.11.1 generator-karma 
+  
+  mkdir mytodo && cd mytodo 
+  
+  yo 
+  
+  grunt serve 
+  
+  cd .. 
+  
+  grunt serve 
+  
+  cd mytodo/ 
+  
+  grunt serve 
+  
+  grunt serve --force 
+  
+  bower install 
+  
+  grunt serve --force 
+  
+  sudo bower install 
+  
+  bower install --allow-root  
+  
+  sudo bower install --allow-root  
+  
+  karma 
+  
+  npm install --global karma --save-dev 
+  
+  sudo npm install --global karma --save-dev 
+  
+  npm install karma --save-dev 
+  
+  karma 
+  
+  grunt test --force 
+  
+  grunt test 
+  
+  karma 
+  
+  karma start 
+  
+  grunt test 
+  
+  cd test/ 
+  
+  grunt test 
+  
+  karma start karma.conf.js 
+  
+  npm install karma-phantomjs-launcher --save-dev 
+  
+  karma start karma.conf.js 
+  
+  npm install karma-jasmine --save-dev 
+  
+  karma start karma.conf.js 
+  
+   cd .. 
+   
+   grunt 
+   
+   karma start 
+   
+   karma start test/karma.conf.js
+   
+   npm install karma-phantomjs-launcher --save-dev 
+   
+   npm install karma-jasmine --save-dev 
+   
+   grunt 
+   
+   grunt serve:dist 
+   
+   grunt serve:dist --force 
+   
+   bower install --save angular-local-storage 
+   
+   sudo bower install --save angular-local-storage --allow-root 
+   
+   grunt serve
 
 
 Package.json should have :
