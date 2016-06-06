@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc function
@@ -7,24 +7,23 @@
  * # MainCtrl
  * Controller of the setupApp
  */
-angular.module('setupApp')
-  .controller('MainCtrl', function ($scope, localStorageService) {
-    var todosInStore = localStorageService.get('todos');
+angular.module("setupApp")
+  .controller("MainCtrl", function ($scope, localStorageService) {
+	var todosInStore = localStorageService.get("todos");
 
 	$scope.todos = todosInStore || [];
 
-	$scope.$watch('todos', function () {
-	  localStorageService.set('todos', $scope.todos);
+	$scope.$watch("todos", function () {
+		localStorageService.set("todos",                  $scope.todos);
 	}, true);
 
 
-    $scope.addTodo = function () {
-	  $scope.todos.push($scope.todo);
-	  $scope.todo = '';
+	$scope.addTodo = function () {
+		$scope.todos.push($scope.todo);
+		$scope.todo = "";
 	};
 
-	$scope.removeTodo = function (index) {
-	  $scope.todos.splice(index, 1);
+	$scope.removeTodo = function (index) { $scope.todos.splice(index, 1);
 	};
 
 
