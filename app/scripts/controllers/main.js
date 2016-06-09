@@ -11,10 +11,10 @@ angular.module("setupApp")
   .controller("MainCtrl", function ($scope, localStorageService) {
 	var todosInStore = localStorageService.get("todos");
 
-	$scope.todos = todosInStore || [];
+	$scope.todos = todosInStore || ["rambow"];
 
 	$scope.$watch("todos", function () {
-		localStorageService.set("todos",                  $scope.todos);
+		localStorageService.set("todos", $scope.todos);
 	}, true);
 
 
